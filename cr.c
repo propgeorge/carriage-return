@@ -23,7 +23,7 @@ int printhelp(void);
 int process(char*, struct Flags*);
 int getfd(char*, char**, FILE**, FILE**);
 int stripcr(FILE*, FILE*);
-int reverserc(FILE*, FILE*);
+int reversecr(FILE*, FILE*);
 int closefiles(char*, char*, FILE*, FILE*);
 
 int main(int argc, char *argv[])
